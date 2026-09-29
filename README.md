@@ -13,14 +13,14 @@ NOTE : You need to explicitly Create a "S3" bucket and make sure it has same nam
 ---
 
 ##  Features
-- Custom **VPC** and **public subnet**
-- **Security group** with inbound rules:
-  - Port 22 (SSH) → secure login
-  - Port 80 (HTTP) → web traffic
-  - Port 443 (HTTPS) → secure web traffic
-- **Outbound (egress) rules** allow all protocols (`-1`) so the server can reach the internet
-- **EC2 instance** (Ubuntu) with your AWS key pair
-- **Remote state** stored in S3 for safe, shared state management
+ Custom **VPC** and **public subnet**
+ Security group** with inbound rules:
+ Port 22 (SSH) → secure login
+ Port 80 (HTTP) → web traffic
+ Port 443 (HTTPS) → secure web traffic
+ **Outbound (egress) rules** allow all protocols (`-1`) so the server can reach the internet
+ **EC2 instance** (Ubuntu) with your AWS key pair
+ **Remote state** stored in S3 for safe, shared state management
 
 ---
 
