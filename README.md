@@ -12,7 +12,7 @@ NOTE : You need to explicitly Create a "S3" bucket and make sure it has same nam
 
 ---
 
-##  Features
+Features
  Custom **VPC** and **public subnet**
  Security group** with inbound rules:
  Port 22 (SSH) → secure login
@@ -27,10 +27,10 @@ NOTE : You need to explicitly Create a "S3" bucket and make sure it has same nam
 ##  Project Structure
 
 terraform/
-│── main.tf         # Resources (VPC, subnet, SG, EC2)
-│── variables.tf    # Input variables with defaults
-│── outputs.tf      # Useful outputs (public IP/DNS)
-│── provider.tf     # AWS provider + backend config
+ main.tf         # Resources (VPC, subnet, SG, EC2)
+ variables.tf    # Input variables with defaults
+ outputs.tf      # Useful outputs (public IP/DNS)
+ provider.tf     # AWS provider + backend config
 
 ##  How to Run
 
