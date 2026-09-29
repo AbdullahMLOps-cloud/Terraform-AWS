@@ -10,7 +10,7 @@ The project also shows how to use "Remote State" in S3 for team collaboration.
 
 NOTE : You need to explicitly Create a "S3" bucket and make sure it has same name as you define in "Provider.tf" file 
 
----
+
 
 Features
  Custom **VPC** and **public subnet**
@@ -22,9 +22,9 @@ Features
  **EC2 instance** (Ubuntu) with your AWS key pair
  **Remote state** stored in S3 for safe, shared state management
 
----
 
-##  Project Structure
+
+Project Structure
 
 terraform/
  main.tf         # Resources (VPC, subnet, SG, EC2)
@@ -32,13 +32,13 @@ terraform/
  outputs.tf      # Useful outputs (public IP/DNS)
  provider.tf     # AWS provider + backend config
 
-##  How to Run
+  How to Run
 
 Initialize Terraform
   
-   terraform init
-   terraform plan
-   terraform apply --auto-approve
+terraform init
+terraform plan
+terraform apply --auto-approve
 
 ## Check outputs
 
